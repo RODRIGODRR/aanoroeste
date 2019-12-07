@@ -397,11 +397,21 @@ ul {
   margin-top: 40px;
 }
 
+.btn_1_custom{
+  background-color: #fc8f51;
+}
+
 /* line 34, E:/166 Basketball/Basketball_Template/sass/_button.scss */
 .btn_1:hover {
   border: 2px solid #ff8b23;
-  background-color: #fff;
+  background-color: rgb(252, 202, 127);
   color: #ff8b23;
+}
+
+.btn_1_custom:hover{
+  border: 2px solid #b63f32;
+  background-color: #f8a39a;  
+  color: #fff;
 }
 
 /* line 40, E:/166 Basketball/Basketball_Template/sass/_button.scss */

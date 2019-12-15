@@ -1,5 +1,21 @@
-body {
+.bodyUnderConstruction {
 	background: url(../img/under_construction.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.bg-redLight{
+	background-color: #fae2e23f;
+}
+
+.blog_item_date_custom{
+	background-color: #a54444da !important;
+	position: absolute;    
+    bottom: 99px;
+    left: 11px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    line-height: 55px;
+    padding-top: 15px;
 }

@@ -19,3 +19,16 @@
     line-height: 55px;
     padding-top: 15px;
 }
+
+p {
+    font-family: opensans,helvetica,arial,sans-serif;
+    color: darkslategray;
+}
+
+@media (min-width: 64rem){
+    p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+}   

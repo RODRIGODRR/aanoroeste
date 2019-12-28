@@ -25,6 +25,11 @@ p {
     color: darkslategray;
 }
 
+.section_tittle_custom {    
+    color:#b91c09 !important; 
+    /* font-weight: bolder !important; */
+}
+
 @media (min-width: 64rem){
     p{
         font-size: 1.1rem;

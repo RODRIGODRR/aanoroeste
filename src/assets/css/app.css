@@ -1,3 +1,14 @@
+
+.btn_1_custom {
+    background-color: #b93244;
+}
+
+.btn_1_custom:hover {
+    border: 2px solid #b63f32;
+    background-color: #f8a39a;  
+    color: #fff;
+}
+
 .bodyUnderConstruction {
 	background: url(../img/under_construction.jpg);
 	background-size: cover;

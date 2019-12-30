@@ -41,6 +41,10 @@ p {
     /* font-weight: bolder !important; */
 }
 
+.blog_item_date {
+    background-color: #b91c09 !important;
+}
+
 @media (min-width: 64rem){
     p{
         font-size: 1.1rem;

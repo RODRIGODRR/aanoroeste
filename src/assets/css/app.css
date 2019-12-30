@@ -1,6 +1,6 @@
 
 .btn_1_custom {
-    background-color: #b93244;
+    background-color: #b91c09;
 }
 
 .btn_1_custom:hover {
@@ -48,3 +48,39 @@ p {
         margin-bottom: 2rem;
     }
 }   
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .banner_part {
+        height: 700px;
+        background-image: none;
+        background-color: #fddbd7 !important;
+    }
+    .main_menu .nav-item {
+        padding: 5px 10px 5px 15px;
+        background-color: rgb(233, 232, 232);
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px){
+    .banner_part {
+        height: 650px;
+        background-image: none;
+        background-color: #fddbd7 !important;
+    }
+    .main_menu .nav-item {
+        padding: 5px 10px 5px 15px;
+        background-color: rgb(233, 232, 232);
+    }
+}
+
+@media (max-width: 576px){
+    .banner_part {
+        height: 600px;
+        background-image: none;
+        background-color: #fddbd7 !important;
+    }
+    .main_menu .nav-item {
+        padding: 5px 10px 5px 15px;
+        background-color: rgb(233, 232, 232);
+    }
+}

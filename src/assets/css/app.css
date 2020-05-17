@@ -45,6 +45,10 @@ p {
     background-color: #b91c09 !important;
 }
 
+b, sup, sub, u, del {
+    color: #b91c09;
+}
+
 @media (min-width: 64rem){
     p{
         font-size: 1.1rem;

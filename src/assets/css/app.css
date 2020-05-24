@@ -1,3 +1,11 @@
+/* #slider {
+    opacity:1;
+    transition: opacity 1s; 
+}
+
+#slider.fadeOut {
+    opacity:0;
+} */
 
 .btn_1_custom {
     background-color: #b91c09;
@@ -47,6 +55,125 @@ p {
 
 b, sup, sub, u, del {
     color: #b91c09;
+}
+
+.banner_part {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url("../img/banner_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slideBg 30s linear infinite 0s;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+
+  .click-btn-custom {
+    background-color: #b91c09;
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 0;
+  }
+
+  /* anchor hover */
+  a:hover, a :hover {
+    color: #b91c09;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .blog_details a:hover {
+    color: #b91c09;
+  }
+
+  .blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
+    color: #b91c09;
+  }
+
+  .blog_right_sidebar .tag_cloud_widget ul li a:hover {
+    background: #b91c09;
+    color: #fff;
+  }
+  
+  .single-post-area .blog-author a:hover {
+    color: #b91c09;
+  }
+
+  .main_menu .header_social_icon ul li a:hover {
+    color: #b91c09;
+  }
+
+  .banner_part .banner_social_icon a:hover {
+    color: #b91c09 !important;
+  }
+
+  .copyright_part .footer-social a:hover {
+    background-color: #b91c09;
+    color: #fff;
+  }
+
+  .contact-info .media-body h3 a:hover {
+    color: #b91c09;
+  }
+
+  .footer-area .single-footer-widget ul li a:hover {
+    color: #b91c09;
+  }  
+
+  .collapse .navbar-collapse .navbar-nav .mr-auto .nav-item a:hover{
+    color: #b91c09;
+  }
+
+  .main_menu ul li :hover {
+    color: #b91c09 !important;
+  }
+
+  /* anchor hover */
+
+
+@keyframes slideBg {
+    0%{     
+        background-image: url("../img/banner_bg.png");
+    }
+    10%{     
+        background-image: url("../img/banner_bg.png");
+    }
+    20%{         
+        background-image: url("../img/banner_bg.png");
+    }
+    30%{       
+        background-image: url("../img/banner_bg2.png");
+    }
+    40%{       
+        background-image: url("../img/banner_bg2.png");
+    }
+    50%{      
+        background-image: url("../img/banner_bg2.png");
+    }
+    60%{          
+        background-image: url("../img/banner_bg3.png");
+    }
+    70%{          
+        background-image: url("../img/banner_bg3.png");
+    }
+    80%{          
+        background-image: url("../img/banner_bg3.png");
+    }
+    100%{        
+        background-image: url("../img/banner_bg.png");
+    }
 }
 
 @media (min-width: 64rem){

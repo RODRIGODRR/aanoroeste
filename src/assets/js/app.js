@@ -7,6 +7,10 @@ scrollDown = () => {
     $("html, body").animate({ scrollTop: "50px" });
 }
 
+function btnEnviarEmail_onClick(event){
+    event.preventDefault();
+}
+
 // var imgArray = [
 //     'assets/img/banner_bg.png',
 //     'assets/img/banner_bg2.png',

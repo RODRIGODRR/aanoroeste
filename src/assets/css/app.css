@@ -54,7 +54,7 @@ p {
 }
 
 b, sup, sub, u, del {
-    color: #b91c09;
+    color: rgb(117, 65, 0);
 }
 
 .banner_part {

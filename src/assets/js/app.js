@@ -47,7 +47,7 @@ $('[data-navegacaoPaginacao="anterior"]').click(function (event) {
     setTimeout(function () {
         $('[data-itemPaginacao="' + index + '"]').removeClass("fadeInLeft animated");
         $('[data-itemPaginacao="' + indexOld + '"]').parent().removeClass("active");
-    }, 500);
+    }, 1000);
 
 });
 
@@ -69,7 +69,7 @@ $('[data-navegacaoPaginacao="proximo"]').click(function (event) {
     setTimeout(function () {
         $('[data-itemPaginacao="' + index + '"]').removeClass("fadeInLeft animated");
         $('[data-itemPaginacao="' + indexOld + '"]').parent().removeClass("active");
-    }, 500);
+    }, 1000);
 });
 
 function atualizaElementosPaginacao() {

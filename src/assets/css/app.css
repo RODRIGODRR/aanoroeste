@@ -13,7 +13,7 @@
 }
 
 .galleryItem {
-    opacity: 0.7;
+    opacity: 0.8;
     transition: 0.3s;
 }
 
@@ -177,60 +177,64 @@ b, sup, sub, u, del {
   }
 
   .breadcrumb_bg_custom {
-    background-image: url("../img/site/custom_breadcrumb.jpg");
+    background-image: url("../img/site/__custom_breadcrumb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .breadcrumb_bg_custom2 {
-    background-image: url("../img/site/custom2_breadcrumb.jpg");
+    background-image: url("../img/site/__custom2_breadcrumb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .breadcrumb_bg_custom3 {
-    background-image: url("../img/site/custom3_breadcrumb.jpg");
+    background-image: url("../img/site/__custom4_breadcrumb.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
+  .paddingLinhaFotos {
+    padding: 1%;
+  }
+
 
 @keyframes slideBg {
     0%{     
-        background-image: url("../img/site/CUSTOM6_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM6_banner_bg.jpg");
     }
     10%{     
-        background-image: url("../img/site/CUSTOM6_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM6_banner_bg.jpg");
     }
     20%{         
-        background-image: url("../img/site/CUSTOM8_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM8_banner_bg.jpg");
     }
     30%{       
-        background-image: url("../img/site/CUSTOM8_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM8_banner_bg.jpg");
     }
     40%{       
-        background-image: url("../img/site/CUSTOM8_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM8_banner_bg.jpg");
     }
     50%{      
-        background-image: url("../img/site/CUSTOM7_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM7_banner_bg.jpg");
     }
     60%{          
-        background-image: url("../img/site/CUSTOM7_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM7_banner_bg.jpg");
     }
     70%{          
-        background-image: url("../img/site/CUSTOM7_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM7_banner_bg.jpg");
     }
     80%{          
-        background-image: url("../img/site/CUSTOM9_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM9_banner_bg.jpg");
     }
     90%{          
-        background-image: url("../img/site/CUSTOM9_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM9_banner_bg.jpg");
     }
     100%{        
-        background-image: url("../img/site/CUSTOM6_banner_bg.jpg");
+        background-image: url("../img/site/__CUSTOM6_banner_bg.jpg");
     }
 }
 

@@ -197,8 +197,28 @@ b, sup, sub, u, del {
     background-size: cover;
   }
 
+  .breadcrumb_bg_custom4 {
+    background-image: url("../img/site/__custom5_breadcrumb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .paddingLinhaFotos {
     padding: 1%;
+  }
+
+  .listStyle{
+    display: block;
+    list-style-type: disc;
+    /* margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0; */
+    padding-left: 40px;
+    font-size: 1.1rem;
+    font-family: opensans,helvetica,arial,sans-serif;
+    color: darkslategray;
   }
 
 

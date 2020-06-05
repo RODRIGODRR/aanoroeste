@@ -17,6 +17,7 @@ function trataPaginacao(index) {
 
     $('[data-blocoFotos="' + $(index).text() + '"]').gallerie();
     $('.gallerie-captionbox').css("box-sizing", "content-box");
+    $('.gallerie-image').addClass("imgHeight");
 }
 
 $('[data-itemPaginacao]').click(function (event) {

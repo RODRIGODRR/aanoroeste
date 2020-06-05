@@ -258,6 +258,16 @@ b, sup, sub, u, del {
     }
 }
 
+.imgMargin {
+  margin-top: 5%;
+}
+
+.imgHeight {
+  /* height: 600px !important; */
+  /* height: 85% !important; */
+  bottom: -20% !important;
+}
+
 @media (min-width: 64rem){
     p{
         font-size: 1.1rem;

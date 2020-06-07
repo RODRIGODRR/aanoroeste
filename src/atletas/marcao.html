@@ -189,7 +189,7 @@
                                             </tr>
                                             <tr>
                                                 <th>Data de nasc.</th>
-                                                <td colspan="2">07 de fevereiro de 1962 (58 anos)</td>
+                                                <td colspan="2">07 de fevereiro de 1962 (<span data-idade></span> anos)</td>
                                             </tr>
                                             <tr>
                                                 <th>Local de nasc.</th>
@@ -244,12 +244,26 @@
     <!-- custom js -->
     <script src="../assets/js/custom.js"></script>
 
-    <!-- app.js -->
+    <!-- app.js -->    
+
     <script>
         $(document).ready(function () {
             $('#header').load('../masters/header.html');
             $('#footer').load('../masters/footer.html');
+            
+            calculaIdade();
         });
+
+        function calculaIdade(){
+            var dataNasc = $('[data-idade]').parent().text();
+            var patt = /\b\d{4}\b/g;
+            
+            var anoNascimento = dataNasc.match(patt)[0];
+            var anoAtual = new Date().getFullYear();
+            var result = anoAtual - anoNascimento;
+
+            $('[data-idade]').text(result);
+        }        
     </script>
 </body>
 

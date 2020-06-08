@@ -170,7 +170,8 @@
                         <div class="container">
                             <div class="row">
                                 <div style="padding: 2%">
-                                    <img src="../assets/img/team/marcao_2.jpg" alt="" title="" height="300" width="300" />
+                                    <img src="../assets/img/team/marcao_2.jpg" alt="" title="" height="300"
+                                        width="300" />
                                     <h4>W. Marcos e seu avô nos anos 70</h4>
                                 </div>
                             </div>
@@ -189,7 +190,9 @@
                                             </tr>
                                             <tr>
                                                 <th>Data de nasc.</th>
-                                                <td colspan="2">07 de fevereiro de 1962 (<span data-idade></span> anos)</td>
+                                                <td colspan="2">07 de fevereiro de 1962 (<span
+                                                        data-idade="02/07"></span>
+                                                    anos)</td>
                                             </tr>
                                             <tr>
                                                 <th>Local de nasc.</th>
@@ -244,23 +247,36 @@
     <!-- custom js -->
     <script src="../assets/js/custom.js"></script>
 
-    <!-- app.js -->    
+    <!-- app.js -->
 
     <script>
         $(document).ready(function () {
             $('#header').load('../masters/header.html');
             $('#footer').load('../masters/footer.html');
-            
+
             calculaIdade();
         });
 
-        function calculaIdade(){
+        function calculaIdade() {
             var dataNasc = $('[data-idade]').parent().text();
             var patt = /\b\d{4}\b/g;
-            
+
             var anoNascimento = dataNasc.match(patt)[0];
             var anoAtual = new Date().getFullYear();
+
+            // varifica data/mês
+            var today = new Date();
+            var day = today.getDate() + "";
+            var month = (today.getMonth() + 1) + "";
+            var year = today.getFullYear() + "";
+
+            var dtaAtual = new Date(year + "/" + month + "/" + day);
+            var dtaAniversario = new Date(year +"/"+ $('[data-idade]')[0].dataset.idade);
+
             var result = anoAtual - anoNascimento;
+
+            if (dtaAtual.getTime() < dtaAniversario.getTime()) 
+                result--;
 
             $('[data-idade]').text(result);
         }        
